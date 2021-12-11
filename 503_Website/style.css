@@ -1,3 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: black;
+}
+
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header img {
+  display: block;
+  height: 60px;
+  padding-top: 20.15px;
+}
+
 h1 {
      font-family: Courier;
      font-size: 24px;
@@ -5,37 +32,49 @@ h1 {
      font-variant: normal;
      font-weight: 700;
      line-height: 26.4px;
-  }
-  h2{
+     color:white;
+}
 
-  }
+h2{
+    color: white;
+}
+
+nav {
+  height: 50px;
+  flex: 100%;
+  display: flex;
+}
+
 nav ul {
     padding: 0;
     list-style-type: none;
     flex: 2;
     display: flex;
-  }
+}
   
-  nav li {
+nav li {
     display: inline;
     text-align: center;
     flex: 1;
     font-family: 'Courier New', Courier, monospace;
-  }
-  nav a, nav span {
+}
+
+nav a, nav span {
     display: inline-block;
     font-size: 2rem;
     height: 3rem;
     line-height: 1.7;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: white;
   
-  }
-  header h1{
+}
+
+header h1{
     animation: animate 
         5s linear;
 }
+
 @keyframes animate {
     0% {
         opacity: 0;
@@ -48,4 +87,15 @@ nav ul {
     100% {
         opacity: 1;
     }
+}
+.CurrentPage{
+  color: #fff53f;
+}
+
+p{
+  color:white;
+}
+
+.house{
+  color:#6f9bfe;
 }
